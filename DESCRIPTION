@@ -1,20 +1,23 @@
 Package: sta
 Type: Package
 Date: 2017-12-16
-Title: Mimetize Stock Traders Almanac Analysis
+Title: Mimetize Stock Trader's Almanac Analysis
 Encoding: UTF-8
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R: c(person("Mario Pisa", role = c("aut", "cre"),
 		     email = "mario.pisa@gmail.com"))
 Depends:
    R (>= 3.2.2)
 Imports:
+   xts (>= 0.09-7),
+   zoo (>= 1.8),
+   lubridate (>= 1.6.0)
 Suggests:
 Description: Stock Traders Almanac Analyze the markets based on historical 
                paterns. This package tries to facilitate these analyses in a 
                simple way
 License: GPL-3 | file LICENSE
 LazyData: true
-URL:  https://github.com/mariope/barronsCOT
-BugReports: https://github.com/mariope/barronsCOT/issues
+URL:  https://github.com/mariope/sta
+BugReports: https://github.com/mariope/sta/issues
 RoxygenNote: 5.0.1
